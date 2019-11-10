@@ -1,0 +1,98 @@
+.slider {
+    width: 100%;
+}
+
+.slider{
+    display: flex;
+}
+
+.slider img {
+    width: 140px;
+    height: 200px;
+    display: block;
+}
+
+.post-date{
+    color:gray;
+}
+
+.post-item{
+    border-bottom: 1px solid gray;
+}
+
+.post-item{
+    font-size: 13px;
+}
+
+.category > span,.name > span{
+    color:mediumvioletred;
+}
+
+.post-date2 .desc{
+    margin: 10px 0;
+}
+
+.post-date{
+    margin-top: 10px;
+}
+
+.show-post .reviewer_top{
+    font-weight: bold;
+}
+
+.show-post .reviewer_top span{
+    color:mediumvioletred;
+}
+
+.show-post .date{
+    font-style: italic;
+}
+
+.review_container{
+    margin-top: 1px;
+}
+
+.review-title{
+    text-align: center;
+}
+
+
+.review_container img{
+    width:300px;
+    float:left;
+    margin-right: 20px;
+}
+
+.review_container_show{
+    display: flex;
+    widows: 100%;
+}
+
+.review_container_show img{
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.review_container_show div{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.users{
+    margin-top: 20px;
+    color:blue;
+}
+
+.users h3{
+    color:black;
+}
+
+.user-status-2{
+    color:black;
+}
+
+
+.user-role-admin{
+    color:mediumvioletred;
+}
+
